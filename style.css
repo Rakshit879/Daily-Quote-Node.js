@@ -1,0 +1,65 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  }
+  
+  .quote-container {
+    background: #f9eeff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .quote-display {
+    background-color: #e6e6fa87; /* Distinct background color for quote display */
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .quote-text {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    min-height: 60px;
+  }
+  
+  .quote-author {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    min-height: 24px;
+  }
+  
+  .generate-btn {
+    background-color: #6a11cb;
+    background-image: linear-gradient(315deg, #6a11cb 0%, #2575fc 74%);
+    border: none;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .generate-btn:hover {
+    opacity: 0.9;
+  }
+  
